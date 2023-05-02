@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*{ margin: 0; padding: 0; outline: none; box-shadow: none; box-sizing: border-box; }
+
+ol, ul { list-style: none; }
+
+body { font-family: 'Nunito', sans-serif; }
+
+.dashboard { display: none; }
+.dashboard.active { display: block; }
+
+.login-form { width: 500px; margin: 0 auto; padding: 30px; background: #FFFFFF; border-radius: 20px; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05); }
+.login-form .login-title { font-family: 'Nunito', sans-serif; font-size: 30px; font-weight: 700; line-height: 1; text-align: center; color: #363D55; margin: 0 0 30px; }
+.login-form label { font-family: 'Nunito', sans-serif; font-size: 18px; font-weight: 700; line-height: 1; color: #363D55; margin: 0 0 10px; display: block; }
+.login-form input { font-family: 'Nunito', sans-serif; line-height: 1; width: 100%; margin: 0 0 30px; color: #363D55; border: 1px solid #DCDCDC; padding: 10px; border-radius: 5px; font-size: 14px; font-weight: 600; }
+.login-form .login-btn { border: none; background-color: #587EF4; color: #FFFFFF; padding: 10px 30px; border-radius: 5px; font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 600; }
+
+.add-blog, .update-blog { width: 600px; margin: 60px auto 0; padding: 30px; background: #FFFFFF; border-radius: 20px; box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05); }
+.add-blog .add-blog-title, .update-blog .update-blog-title { font-family: 'Nunito', sans-serif; font-size: 30px; font-weight: 700; line-height: 1; text-align: center; color: #363D55; margin: 0 0 30px; }
+.add-blog form div label, .update-blog form div label { font-family: 'Nunito', sans-serif; font-size: 18px; font-weight: 700; line-height: 1; color: #363D55; margin: 0 0 10px; display: block; }
+.add-blog form div input, .update-blog form div input { font-family: 'Nunito', sans-serif; line-height: 1; width: 100%; margin: 0 0 30px; color: #363D55; border: 1px solid #DCDCDC; padding: 10px; border-radius: 5px; font-size: 14px; font-weight: 600; }
+.add-blog form .submit-btn, .update-blog form .update-btn { border: none; background-color: #587EF4; color: #FFFFFF; padding: 10px 30px; border-radius: 5px; font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 600; margin: 40px 0 0; }
+
+.add-blog form .blog-category .add-category { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+.add-blog form .blog-category .add-category input { width: calc(100% - 180px); margin: 0; }
+.add-blog form .blog-category .add-category .add-category-btn { border: none; background-color: #587EF4; color: #FFFFFF; padding: 10px 30px; border-radius: 5px; font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 600; margin: 0; }
+.add-blog form .blog-category ul.category { padding: 0; margin: 10px 0 0; display: flex; flex-wrap: wrap; align-items: center; }
+.add-blog form .blog-category ul.category li { margin: 0 10px 0 0; font-size: 14px; line-height: 1; font-weight: 400; background-color: #e3e3e3; padding: 5px; border-radius: 3px; }
+.add-blog form .blog-category ul.category li span { display: inline-block; width: 10px; height: 10px; position: relative; margin: 0 0 0 5px; }
+.add-blog form .blog-category ul.category li span::before { content: ""; width: 10px; height: 2px; background-color: #000000; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(45deg); }
+.add-blog form .blog-category ul.category li span::after { content: ""; width: 10px; height: 2px; background-color: #000000; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-45deg); }
+
+.navbar { background-color: #e31e25; margin: 0 0 60px; padding: 10px 0; }
+.navbar .container-fluid { padding: 0 30px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; }
+.navbar .navbar-collapse ul { display: flex; flex-wrap: wrap; align-items: center; }
+.navbar .navbar-collapse ul li { font-family: 'Nunito', sans-serif; font-size: 18px; margin: 0 30px 0 0; color: #FFFFFF; transition: all 0.3s ease-in-out; }
+.navbar .navbar-collapse ul li:hover { color: #02395a; }
+.navbar .navbar-collapse ul li:last-child { margin: 0 0 0 0; }
+.navbar .navbar-collapse ul li a { font-family: 'Nunito', sans-serif; font-size: 18px; color: #FFFFFF; text-decoration: none; transition: all 0.3s ease-in-out; }
+.navbar .navbar-collapse ul li a:hover { color: #02395a; }
+.navbar .navbar-collapse ul li button { border: none; background-color: #587EF4; color: #FFFFFF; padding: 10px 30px; border-radius: 5px; font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 600; }
+
+.blog-record table td { font-family: 'Nunito', sans-serif; font-size: 18px; font-weight: 700; line-height: 1; color: #363D55; }
+.blog-record table td button { border: none; background-color: #587EF4; color: #FFFFFF; padding: 10px 30px; border-radius: 5px; font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 600; }
